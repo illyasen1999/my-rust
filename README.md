@@ -7,4 +7,4 @@ The goal? Learn Rust of course. And making things with Rust. From simple to adva
 ![anime-crab](./anime-crab.png)
 
 ## Dedication
-<center style="font-weight: 900; font-size: 20px; color: #FFA07A;">IM GONNA MAKE IT THROUGH THIS JOURNEY</center>
+**IM GONNA MAKE IT THROUGH THIS JOURNEY**
