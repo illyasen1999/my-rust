@@ -1,10 +1,13 @@
 use std::io;
-use std::fs::File;
+use std::fs::{/*exists,*/ File};
 use std::io::prelude::*;
 
 pub fn create_text() -> io::Result<()> {
     let mut file = File::create("test.txt")?;
     file.write_all(b"This is a test in creating and writing a file in Rust")?;
+    // if exists("./test.txt") {
+        // test to see if file exists
+    // }
     return Ok(())
 }
 

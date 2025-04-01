@@ -1,0 +1,9 @@
+Notes:
+- When adding external libraries modify the Cargo.toml under [dependencies]
+- When files are organized in different directories there is usally a mod.rs file which stores public functions that the developer can use
+- 
+
+Rust Guides:
+* Naming Conventions - https://rust-lang.github.io/api-guidelines/naming.html
+
+* Style Guide - https://doc.rust-lang.org/style-guide/index.html
