@@ -6,5 +6,8 @@ The goal? Learn Rust of course. And making things with Rust. From simple to adva
 
 ![anime-crab](./anime-crab.png)
 
-## Dedication
+# Dedication
 **IM GONNA MAKE IT THROUGH THIS JOURNEY**
+
+## Project Ideas:
+- [ ] Create/Edit file and track its changes through a Log file
