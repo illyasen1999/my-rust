@@ -119,6 +119,24 @@ pub fn concepts() {
     println!("Returned value from loop: {}", _return_from_loop);
 
     // TODO: Loops with Labels - https://doc.rust-lang.org/book/ch03-05-control-flow.html#loop-labels-to-disambiguate-between-multiple-loops
+
+    let mut count = 0;
+    'couting_up: loop {
+        println!("Remaining: {}", count);
+        let mut remaining = 5;
+
+        loop {
+            println!("remaining = {}", remaining);
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'couting_up;
+            }
+            remaining -= 1;
+        }
+        count += 1;
+    }
 }
 
 // creating a function
