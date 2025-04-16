@@ -118,25 +118,33 @@ pub fn concepts() {
 
     println!("Returned value from loop: {}", _return_from_loop);
 
-    // TODO: Loops with Labels - https://doc.rust-lang.org/book/ch03-05-control-flow.html#loop-labels-to-disambiguate-between-multiple-loops
+    // TODO: https://doc.rust-lang.org/book/ch03-05-control-flow.html#loop-labels-to-disambiguate-between-multiple-loops
 
-    let mut count = 0;
+    let mut _counter_2 = 0;
     'couting_up: loop {
-        println!("Remaining: {}", count);
-        let mut remaining = 5;
+        println!("Count: {}", _counter_2);
+        let mut remaining = 10;
 
         loop {
-            println!("remaining = {}", remaining);
+            println!("Remaining: {}", remaining);
             if remaining == 9 {
                 break;
             }
-            if count == 2 {
+            if _counter_2 == 2 {
                 break 'couting_up;
             }
-            remaining -= 1;
+            remaining -= 1
         }
-        count += 1;
+        _counter_2 += 1;
     }
+    println!("End count = {}", _counter_2);
+   
+    let mut _some_num = 3;
+    while _some_num != 0 {
+        println!("{}", _some_num);
+        _some_num -= 1;
+    }
+    println!("Boom!!!")
 }
 
 // creating a function
